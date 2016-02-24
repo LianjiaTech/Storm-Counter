@@ -11,4 +11,12 @@ Storm consumer command queue from Kafka, then parse and excute command to storag
  ![image](https://raw.githubusercontent.com/pangee/Storm-Counter/master/images/storm-counter.png)
  
 ## Command
-  TODO
+INCREMENT Operation:
+```Java
+{"table":"eg:table_name","operation":"increase","rowkey":"rowkey_20160224","family":"user","qualifier":"age","value":1}
+```
+
+Set Operation:
+```Java
+{"table":"eg:table_name","operation":"set","rowkey":"rowkey_20160224","family":"user","qualifier":"age","value":99}
+```
