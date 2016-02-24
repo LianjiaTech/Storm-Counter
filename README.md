@@ -8,3 +8,7 @@ Storm consumer command queue from Kafka, then parse and excute command to storag
 * <b>Particular attention</b>: please use INCREAMENT command to init a new KV data in HBbase.
 
 ## Graphic Rendition
+ ![image](https://raw.githubusercontent.com/pangee/Storm-Counter/master/images/storm-counter.png)
+ 
+## Command
+  TODO
