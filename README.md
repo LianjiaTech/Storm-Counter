@@ -11,7 +11,7 @@ Storm consumer command queue from Kafka, then parse and excute command to storag
  ![image](https://raw.githubusercontent.com/pangee/Storm-Counter/master/images/storm-counter.png)
  
 ## Command
-Command is a JSON String, Command as text log write into Message queue(Kafka), and control Storm-Counter to Increase/Set a value.
+Command is a JSON String, Command as text log write into Message queue(Kafka), and control Storm-Counter to Increase/Set a value.<br/>
 Command example:
 ```Java
 {"table":" TABLENAME ","operation":" OPERRATION ","rowkey":" HBaseRowkey ","family":" HBaseFamilyName ","qualifier":" HBaseQualifier ","value": VALUE }
