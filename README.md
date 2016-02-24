@@ -28,7 +28,8 @@ Set Operation:
 ```
 
 ## Usage 
-You Must Install JAVA+Maven+Storm
+Please Install `JAVA`、`Maven`、`Storm`，and set storm cluster in your storm config.<br/>
+
 * git clone git@github.com:LianjiaTech/Storm-Counter.git 
 * cd Storm-Counter
 * mvn clean install
