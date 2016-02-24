@@ -26,3 +26,16 @@ Set Operation:
 ```Java
 {"table":"eg:table_name","operation":"set","rowkey":"rowkey_20160224","family":"user","qualifier":"age","value":99}
 ```
+
+## Usage 
+You Must Install JAVA+Maven+Storm
+* git clone git@github.com:LianjiaTech/Storm-Counter.git 
+* cd Storm-Counter
+* mvn clean install
+* cd target 
+* storm jar counter-0.0.1-SNAPSHOT.jar topology.counter kafka `10.10.1.1:2181` `/brokers` `Topicname` `10` 
+`10.10.1.1:2181`: your Kafka zookeeper host and port
+`/brokers`: your kafka zookeeper path
+`Topicname`: your kafka topic name
+`10`: Storm counter concurrency number
+* storm 
