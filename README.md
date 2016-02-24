@@ -34,8 +34,9 @@ You Must Install JAVA+Maven+Storm
 * mvn clean install
 * cd target 
 * storm jar counter-0.0.1-SNAPSHOT.jar topology.counter kafka `10.10.1.1:2181` `/brokers` `Topicname` `10` 
-`10.10.1.1:2181`: your Kafka zookeeper host and port
-`/brokers`: your kafka zookeeper path
-`Topicname`: your kafka topic name
-`10`: Storm counter concurrency number
-* storm 
+
+`10.10.1.1:2181`: your Kafka zookeeper host and port<br/>
+`/brokers`: your kafka zookeeper path<br/>
+`Topicname`: your kafka topic name<br/>
+`10`: Storm counter concurrency number<br/>
+<br/>
